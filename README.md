@@ -1,65 +1,60 @@
-Project Introduction
-This project is focused on building a web application that helps users plan their trips based on predicted weather forecasts for their travel destinations.
+Project Intro
+Building a web app that allows users to to plan their trips based on predicted weather forecasts for the location they are travelling to.
 
-Project Goals
-This project provides an opportunity to gain experience in:
+The goal of this project is to get practice with:
 
 Setting up a server environment
-Configuring Webpack
-Styling with Sass
-Using Webpack Loaders and Plugins
-Targeting the DOM and working with objects
-Creating page layouts and designs
-Implementing Service Workers for offline functionality
-Using APIs and making requests to external URLs
-Working with unit testing
-Languages and Tools
-Node.js & Express.js: For backend development
-JavaScript: For frontend development
-Webpack: For build optimization
-Service Workers: For offline support
-Jest: For unit testing
-Project Rubric
-To check the project specifications and evaluation criteria, refer to the provided documentation.
+Setting up Webpack
+Sass styles
+Webpack Loaders and Plugins
+Targeting the DOM, working with objects
+Creating layouts and page design
+Service workers
+Using APIs and creating requests to external urls
+Working with Testing units
+Language and tools for this project:
 
-Additional Features
-This project includes some extra features, such as:
+Node & Express: For server side development
+js: For client side development
+Webpack: Build tool
+Service workers: Offline functionality
+Jest: Testing unit
+Project rubric:
 
-Fetching an image of the country from the Pixabay API if no results are found for the entered location (useful for obscure places).
-Allowing users to remove trips.
+Check out the specifications here.
+
+Project Extension
+Some extra features were included in this project:
+
+Pull in an image for the country from Pixabay API when the entered location brings up no results (good for obscure localities).
+Allow the user to remove the trip.
 Getting Started
-Follow these steps to run the project locally:
+Follow the steps below to get the project running.
 
-Clone the GitHub repository and install dependencies
+Clone this Github repository and use NPM to install all the dependencies listed in the package.json file:
 
-bash
-Copy
-Edit
-git clone https://github.com/ArslanManasra/udicityProject-FEND-Capstone---Travel-app-
-cd FEND-Capstone-travel-app
-npm install
-Start the local server
+$ git clone https://github.com/ArslanManasra/udicityProject-FEND-Capstone---Travel-app-
+$ cd FEND-Capstone-travel-app
+$ npm install
+Then, start the local server:
 
-bash
-Copy
-Edit
-npm run build-prod
-npm start
-Once started, the app will be available in the browser at localhost:8081.
+$ npm run build-prod
+$ npm start
+The app will be running in your browser on localhost:8081
 
-Running in Development Mode
-After completing the steps above, open a new terminal window and start the Webpack Dev Server:
+Runnning the development mode
+After completing the steps above, open a second terminal and start the webpack dev server:
 
-bash
-Copy
-Edit
-npm run build-dev
-The development version of the app will run on localhost:8080, and any code changes will automatically update in the browser.
+$ npm run build-dev
 
-Unit Testing
-This project includes unit tests using Jest. To run the tests, use the following command:
+The development version of the app will be running in your browser on localhost:8080
+(the page will automatically update in the browser after any code change)
 
-bash
-Copy
-Edit
-npm run test
+Testing Unit
+This project has a Testing Unit to check if the main functions are working correctly. Testing is done with Jest.
+
+To run tests you can use the following NPM command:
+
+$ npm run test
+
+The test results will be displayed on the terminal.
