@@ -1,4 +1,6 @@
 Project Intro
+
+
 Building a web app that allows users to to plan their trips based on predicted weather forecasts for the location they are travelling to.
 
 The goal of this project is to get practice with:
