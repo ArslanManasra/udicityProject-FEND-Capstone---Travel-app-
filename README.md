@@ -18,7 +18,7 @@ and can delete trip from this list or clear it.
 - [GeoNames WebServices](http://www.geonames.org/export/ws-overview.html) APIs ([Search Location](https://www.geonames.org/export/geonames-search.html) and [Find Nearby Hotel](http://www.geonames.org/hotel)),
 - [weatherbit API](https://www.weatherbit.io/api) (providing [currunt weather](https://www.weatherbit.io/api/weather-current) and [forecast weather](https://www.weatherbit.io/api/weather-forecast-16-day)),
 - [pixabayBase API](https://pixabay.com/api/docs/) (providing images for the city)
-- [Node js](http://nodejs.org/)  server side
+- [Node js](http://nodejs.org/)  server side - NOTE : Use the version v20 .
 - [WebPack 4](https://webpack.js.org/) front-end (client side)
 - [Jest](https://jestjs.io/) for testing
 - [sass-loader](https://webpack.js.org/loaders/sass-loader)
